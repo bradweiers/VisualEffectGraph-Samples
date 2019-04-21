@@ -119,7 +119,7 @@ public class VoxelizedTerrainController : MonoBehaviour
             if (Input.mouseScrollDelta.y != 0)
             {
 
-                dist += Input.mouseScrollDelta.y * 0.1f;
+                dist -= Input.mouseScrollDelta.y * 0.1f;
 
             }
 
